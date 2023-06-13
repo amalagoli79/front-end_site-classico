@@ -1,0 +1,46 @@
+incompetente com iniciativa 
+mendes sá - fez o que pode
+capricho. fazer o melhor com aquilo que vc tem, nao ser mediocre. 
+
+Nos informe o serviço que deseja. Caso você não encontrar a opção desejada, ligue para (0xx16) 2103-3535
+
+adriano.g.malagoli@gmail.com
+11 96855-3752
+https://consorciokawasakibrasil.com.br/
+
+----------------------------------------------------------------- API
+Aula 01 de api - webinar 01
+o que é api, tipos, url, urn, uri, json, documentacao 
+
+Aula 02 de api - webinar 01
+segurança em api, token jwt, autenticação, autorização, [Authorize(roles = "1,2")]
+
+Aula 03 de api - Encontro Remoto 01
+Criar api, como funciona, fazer consulta, instalar, abrir vstudio, criar api web asp.net core,
+explicando projeto, apagando exemplos, nuget, swagger, EntityFrameworkCoreSql, nova classe context, copiar DbContext, 
+nova Classe Livro, string de conexao sql, criar livroRepository, criar controller, statuscode-dog, [httpGet], add no Program, 
+testar via swagger, entendendo o url da api, pasta properties/launchSettings.Json (linha 17), testando api, edição da atividade no ava. 
+
+Aula 04 de api - Encontro Remoto 02
+Estrutura de Api, acrescentar metodos de buscar ID, Cadastrar, Deletar, Aterar..
+
+Aula 05 de api - Encontro Remoto 03
+C.r.u.d.e de Usuario (cópia de livro). Criar Classe Usuario, acrescenta dbset de usuarios no Context, cria IUsuarioRepository, cria a classe UsuarioRepository, herdar a interface.
+criar cada metodo de usuario, semelhante aos metodos de Livro, criar a classe controller de usuario, comtroller api vazio, UsuarioController.cs,
+no controler fazer o httpGet / consulta, httpget buscar ID, Cadastrar, deletar e atualizar, testar no Insomnia (cadastro, alteracao, buscar id e deletar), configuracao de acesso pelo Cors, direto no program.cs (a ordem é importante)
+ 
+Aula 06 de api - Encontro Remoto 04
+add, nuget, jwtbearer
+Autenticacao de usuario - token Jwt, geração do token (pedaços do token),
+- fazer a logica do metodo de login(), criar um controle especifico de Login (loginController, 
+- configuracao do token/recebido no program, nova pasta ViewsModel e criar a classe LoginViewModel.cs [Required]
+- testar no Insominia, listar usuarios, cadastrar usuarios, testar login e ter acesso ao token retornado (em forma de objeto),
+- token.dev para ter acesso ao form de teste de token
+- configurar no program.cs abaixo do cors, add a autenticação, builder.services.addAutentication...
+- cadastrar livroController [Authorize(Roles = "1")]
+
+Webinar 03 - UC17 - 22T1Oi - Dev.-Api's - 05_12_22 - AGM
+
+  
+
+----------------------------------------------------------------- API
